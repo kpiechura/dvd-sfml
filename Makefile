@@ -11,4 +11,4 @@ all: main
 
 main: 
         @echo "** Building the dvd theme..."
-        $(CXX) -o main main.o State.o PlayState.o Object.o Player.o $(LIBS)
+        $(CXX) -o main main.o $(LIBS)
